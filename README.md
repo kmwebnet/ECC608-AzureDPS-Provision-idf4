@@ -30,8 +30,7 @@ static const char* id_scope = "";
 # Environment reference
   
   Espressif ESP32-DevkitC
-  this project initialize both of I2C 0,1 port, and the device on I2C port 0 is BME280 Ambient sensor.  
-  pin assined as below:
+    pin assined as below:
 
 
       I2C 0 SDA GPIO_NUM_16
