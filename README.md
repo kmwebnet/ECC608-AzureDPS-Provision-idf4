@@ -15,11 +15,16 @@ This registers device certificate to Azure IoT DPS service and prepares for conn
 // your SSID and PASS
 #define EXAMPLE_WIFI_SSID ""
 #define EXAMPLE_WIFI_PASS ""
+  ```
+  
+  
 
+in prov_dev_client_ll_sample.c ID scope which are pointed out by your Azure IoT DPS service console.
 
-// in prov_dev_client_ll_sample.c ID scope which are pointed out by your Azure IoT DPS service console.
+  ```
 static const char* id_scope = "";
   ```
+
 
 
 # Environment reference
